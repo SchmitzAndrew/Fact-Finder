@@ -10,4 +10,6 @@
 ?
 people_list.csv,0\0\00e62437c41327c7ff010b7e3d2b3749a1630797
 G
-people list from csv.py,b\f\bf60e2fdfdd1988ece2ed844cc043662f36545bd
+lists_for_seperation.py,2\c\2cf30b99bc78d56ee83731c61bedc3be9b9e6dfd
+B
+locations-list.csv,3\c\3c93d4aa1f10c25bde06ed96e7ebe29f2f165cdd
