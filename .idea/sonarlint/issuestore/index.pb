@@ -13,3 +13,7 @@ G
 lists_for_seperation.py,2\c\2cf30b99bc78d56ee83731c61bedc3be9b9e6dfd
 B
 locations-list.csv,3\c\3c93d4aa1f10c25bde06ed96e7ebe29f2f165cdd
+G
+add file to database.py,8\9\89eef04f9bd20ecaf8cf7b199b47d825d1771a25
+;
+searcher.py,8\c\8ce4727eceb8f227b83dbef70d4dad28d28726c8

@@ -6,7 +6,7 @@
 
 #makes list from csv
 import csv
-from csv import reader
+from csv import read
 
 #creaters list of tuples from .csv
 with open('people_list.csv', 'r') as read_obj:

@@ -1,4 +1,5 @@
-from input import user_search
+from input import find_category
+
 
 def people_search(user_search):
 
