@@ -6,11 +6,10 @@
 
 #makes list from csv
 import csv
-from csv import read
 
 #creaters list of tuples from .csv
 with open('people_list.csv', 'r') as read_obj:
-    csv_reader = reader(read_obj)
+    csv_reader = csv.reader(read_obj)
     people_tuple_list_with_initials = list(map(tuple,csv_reader))
 
 #converts tuples into a list
@@ -22,10 +21,11 @@ people_list = []
 people_index = 1
 for name_or_initials in people_list_with_initials:
     try:
-        people_list.append(people_list_with_initials[people_index])
+        people_list.append(people_list_with_initials[people_index].strip().lower())
         people_index = people_index + 2
     except IndexError:
         break
+
 
 
 # makes years list
@@ -61,7 +61,7 @@ for location in locations_list:
     country_name_list.append(location['country'])
     geoname_id_list.append(location['geonameid'])
 
-print(city_name_list)
+
 
 
 

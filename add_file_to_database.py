@@ -5,10 +5,10 @@ def add_term(user_search):
     print('''You can your search query to 2 different lists. 
     1. City
     2. Person''')
-    list_addition_choice = input("C for city and P for person")
-    if list_addition_choice == C:
+    list_addition_choice = input("C for city and P for person").uppper()
+    if list_addition_choice == "C":
         add_to_city_name_list(user_search)
-    elif list_addition_choice == P:
+    elif list_addition_choice == "P":
         add_to_people_list(user_search)
     else:
         print("Not a valid selection")
